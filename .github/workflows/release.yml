@@ -46,7 +46,7 @@ jobs:
 
       - name: SHA256 checksums
         working-directory: dist
-        run: sha256sum merton-* > checksums.txt
+        run: sha256sum dumbenum-* > checksums.txt
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
