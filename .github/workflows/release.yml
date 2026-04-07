@@ -30,7 +30,7 @@ jobs:
         id: meta
         run: |
           declare -A CODENAMES
-          CODENAMES["v0.1.0"]="smbmap-is-a-liar"
+          CODENAMES["v0.0.1"]="not-good-enough-to-get-a-codename"
 
           TAG="${{ github.ref_name }}"
           CODENAME="${CODENAMES[$TAG]:-unknown}"
